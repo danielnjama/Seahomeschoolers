@@ -1,0 +1,60 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}
+    <title>Allaia | Bootstrap eCommerce Template - ThemeForest</title>
+	{% endblock title %}
+
+   
+
+{% block content %}
+	
+	<main class="bg_gray">
+
+		<div id="carousel-home">
+			<div class="owl-carousel owl-theme">
+				<div class="owl-slide cover" style="background-image: url({% static "img/slides/bg-hero-kids.jpg" %});">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(255, 255, 255, 0.5)">
+						<div class="container">
+							<div class="row justify-content-center justify-content-md-start">
+								<div class="col-lg-12 static">
+									<div class="slide-text text-center black">
+										<h2 class="owl-slide-animated owl-slide-title">We Love to Hear From You!</h2>
+										<p class="owl-slide-animated owl-slide-subtitle">
+											If you have a question, comment, or want to chat, fill out the contact form, and we will get back to you soon.
+										</p>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/owl-slide-->
+				</div>
+			</div>
+			<div id="icon_drag_mobile"></div>
+		</div>
+
+
+	
+			<div class="container margin_60">
+				
+				<div class="row justify-content-center">
+					<div class="col-lg-4">
+						<div class="box_contacts">
+							<i class="ti-email"></i>
+							<h2>Drop us an email</h2>
+							<a href="mailto:contact@seahomeschoolers.com">contact@seahomeschoolers.com</a>
+							
+						</div>
+					</div>
+					
+				</div>
+				<!-- /row -->				
+			</div>
+			<!-- /container -->
+		
+		<!-- /bg_white -->
+	</main>
+	<!--/main-->
+	
+{% endblock content %}
