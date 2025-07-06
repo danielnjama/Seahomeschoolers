@@ -12,6 +12,14 @@ def about(request):
 def privacy_policy(request):
     return render(request,'privacy-policy.html')
 
+def ask_blair(request):
+    return render(request,'ask-blair.html')
+
+def homeschooling(request):
+    return render(request,'homeschooling.html')
+    
+
+
 
 
 def contacts(request):
